@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+       <title>Café do Devz</title> 
+    </head>
+
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/coffee-stylesheet.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pixelify+Sans" rel="stylesheet">
+
+<body>
+   <h1 class="cafeteria" draggable="false">Cafeteria</h1>
+   <h1 class="welcomemsg"> Olá, bem vindo a minha cafeteria! </h1>
+   <h1 class="youreinhome">Você pode gastar seu tempo aqui o quanto quiser, sinta-se livre!</h1>
+   
+   <h1 id="money" title="Seu dinheiro">R$0</h1>
+   <h1 id="workbutton" title="Clique para ganhar dinheiro">Atender cliente</h1>
+
+<script>
+
+   var h1Element = document.getElementById("money");
+   var buttonElement = document.getElementById("workbutton");
+   
+   var money = 0;
+
+   buttonElement.addEventListener("click", function() {
+
+     money++;
+     
+     h1Element.textContent = "R$" + money;
+
+   });
+ </script>
+
+<a href="index.html">
+   <img src="./images/sobremim.png" alt="Sobre mim" class="sobremim">
+   </a>
+
+</body>
+</html>

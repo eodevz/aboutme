@@ -1,0 +1,35 @@
+body {
+    font-family: 'Pixelify Sans', sans-serif;
+    background-color: rgb(173, 216, 230)
+}
+
+.firstmsg {
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    font-size: 40px;
+    transition: color 0.3s ease-in-out;
+    line-height: 1;
+    user-select: none;
+}
+
+.firstmsg:hover {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.welcomemsg {
+    text-align: center;
+}
+
+.nothing {
+    text-align: center;
+}
+
+.back {
+    position: absolute;
+    top: 835px;
+    left: -15px;
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,102 @@
+body {
+    font-family:'Pixelify Sans', sans-serif;
+    background-color: rgb(173, 216, 230)
+}
+
+.welcomemsg {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    font-size: 30px;
+    top: 100%;
+    transition: color 0.3s ease-in-out;
+    line-height: 1;
+    user-select: none;
+}
+
+.welcomemsg:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.callmedevz {
+    text-align: center;
+    color: darkorchid;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding-top: -50px;
+    display: block;
+}
+
+.firstcuriosity {
+    padding-top: 15px;
+    display: block;
+    margin-top: -30px;
+}
+
+.interests {
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    font-size: 40px;
+}
+
+.games {
+    margin-top: -15px;
+}
+
+.friendstitle {
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    font-size: 40px;
+}
+
+.friends2 {
+    margin-top: -20px;
+}
+
+.footer1 {
+
+margin-top: -20px;
+}
+
+.coffee {
+    position: absolute;
+    top: 870px;
+    right: 0px;
+    width: 100px;
+    height: 100px;
+}
+
+.end {
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 60px
+}
+
+.credits {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px
+}
+
+.lohran {
+    text-align: center;
+    margin-top: -20px;
+}
+
+.thecauagames {
+    text-align: center;
+    margin-top: -10px;
+}
+
+.cloud {
+    position: absolute;
+    top: 870px;
+    left: 0px;
+    width: 100px;
+    height: 100px;
+}
